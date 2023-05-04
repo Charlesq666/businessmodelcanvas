@@ -7,8 +7,11 @@ type Props = {
 const Container = ( { children } : Props) => {
 
   return ( 
-    <div className='text-sm text-green-100'>
-      {children}
+    <div className='text-sm text-black'>
+      <div className='flex gap-1 items-center justify-between'>
+        <input className='basic max-w-[80%]' type='text' placeholder='Enter text here' />
+        <button className='basic'>+</button>
+      </div>
     </div>
   );
 }

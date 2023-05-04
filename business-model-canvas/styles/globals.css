@@ -9,3 +9,15 @@ body {
 h1 {
   @apply text-4xl font-bold text-gray-900
 }
+
+h3 {
+  @apply text-lg font-semibold text-gray-900
+}
+
+button.basic {
+  @apply text-gray-600 font-medium p-1 border border-gray-400 rounded-md text-sm
+}
+
+input.basic {
+  @apply text-gray-600 font-medium py-1 px-3 border border-gray-400 rounded-md
+}

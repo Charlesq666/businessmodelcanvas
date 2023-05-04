@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Container from "@/components/Container";
 
 export default function Home() {
-  const containerClass = `p-4 bg-gray-300 rounded-md min-w-[100px] min-h-[120px] max-h-[600px]`;
+  const containerClass = `p-4 bg-gray-300 rounded-md min-w-[100px] min-h-[120px] max-h-[1000px]`;
 
   return (
     <div>
