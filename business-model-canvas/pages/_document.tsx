@@ -14,6 +14,7 @@ export default function Document() {
             strategy="afterInteractive"
           />
           <Script
+            id='google analytics'
             strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
